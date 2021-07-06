@@ -11,6 +11,9 @@
   </tr>
 </table>
 
+
+
+
 # Lección 2: Introducción a Javascript
 
 En esta lección cubriremos:
