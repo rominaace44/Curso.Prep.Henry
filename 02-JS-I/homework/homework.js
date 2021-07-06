@@ -198,14 +198,15 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
 	// Tu código:
-	return nombre + apellido
+  var combinado= nombre + " " + apellido
+	return combinado
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
 	// Tu código:
-	return "Hola " + nombre
+	return "Hola " + nombre + "!"
 	
 }
 
@@ -245,13 +246,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
 	//Escribe tu código aquí
 	if(letra.length >1){
-		return "dato incorrecto"
+		return "Dato incorrecto"
 	}
-	if(letra==a) return "es vocal"
-	if(letra==e) return "es vocal"
-	if(letra==i) return "es vocal"
-	if(letra==o) return "es vocal"
-	if(letra==u) return "es vocal"
+  
+  
+	if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+    return "Es vocal"
+
 
 }
 
@@ -294,4 +295,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}
