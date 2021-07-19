@@ -1,0 +1,53 @@
+h1{
+    color:black;
+   text-align: center;
+
+
+
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+   
+    box-sizing: border-box;
+    width: 500px;
+    height: 800px;
+    background-color: rgba(0, 255, 255, 0.637);
+    padding: 20px;
+    border: 5px solid ;
+    margin: auto;
+    font-size:25px;
+}
+#thirdDiv h3{
+    font-size: 30px;
+    color: white;
+  
+  
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    background-image: url(https://i.picsum.photos/id/143/3600/2385.jpg?hmac=gSMmnYrmuP5BJ47kmErfYdYu1L1GLePM1SNm-D2lqiA);
+}
+.divClass{
+    display:block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:rgba(59, 209, 209, 0.61);
+    width: 30%;
+    padding: 5px;
+   
+}
+.divClass span {
+    background-color: darksalmon;
+    display: block;
+}
+.divClass a{
+    font-size: 20px;
+    text-decoration: double;
+}
